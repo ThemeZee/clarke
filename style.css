@@ -87,6 +87,10 @@ big {
 	font-size: 125%;
 }
 
+p {
+	margin-bottom: 0;
+}
+
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
