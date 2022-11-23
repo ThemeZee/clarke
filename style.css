@@ -95,11 +95,12 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	margin: 0;
-	padding: calc(0.4rem + 3px) calc(1rem + 3px);
+	padding: calc(0.7rem + 2px) calc(1.2rem + 2px);
 	border: none;
-	color: var(--wp--preset--color--white);
+	color: var(--wp--preset--color--black);
 	background-color: var(--wp--preset--color--primary);
 	text-decoration: none;
+	text-transform: uppercase;
 	font: inherit;
 	font-weight: 500;
 	font-size: var(--wp--preset--font-size--small);
@@ -115,7 +116,7 @@ input[type="submit"]:focus,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	color: var(--wp--preset--color--white);
+	color: var(--wp--preset--color--black);
 	background-color: var(--wp--preset--color--secondary);
 	cursor: pointer;
 }
@@ -263,7 +264,7 @@ th {
 .wp-block-button.is-style-outline > a.wp-block-button__link,
 .wp-block-button a.wp-block-button__link.is-style-outline {
 	border: 2px solid;
-	padding: 0.6rem 1.2rem;
+	padding: 0.7rem 1.2rem;
 }
 
 .wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:hover, .wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:active, .wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:focus,
