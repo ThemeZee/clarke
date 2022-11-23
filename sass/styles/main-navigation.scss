@@ -7,10 +7,7 @@
 
 			> li.wp-block-navigation-item {
 				> a.wp-block-navigation-item__content {
-					padding-top: var(--wp--preset--spacing--70);
-					padding-bottom: var(--wp--preset--spacing--70);
-					padding-left: 0.5rem;
-					padding-right: 0.5rem;
+					padding: 1rem 0.5rem;
 
 					&:hover,
 					&:focus,
@@ -19,16 +16,15 @@
 					}
 				}
 
-				&:hover > .wp-block-navigation__submenu-icon,
-				&:hover > a.wp-block-navigation-item__content {
-					color: var(--wp--preset--color--primary);
-				}
-
 				.wp-block-navigation__submenu-icon {
 					margin-left: 0;
 					margin-top: 0;
-					width: 14px;
-					height: 14px;
+					width: 13px;
+					height: 13px;
+
+					svg {
+						margin-top: 0;
+					}
 				}
 
 				> ul.wp-block-navigation__submenu-container {
@@ -39,23 +35,20 @@
 				ul.wp-block-navigation__submenu-container {
 					padding: 0;
 					border: none;
-					font-size: var(--wp--preset--font-size--small);
-					min-width: 280px !important;
+					font-size: var(--wp--preset--font-size--tiny);
+					min-width: 240px !important;
 
 					> li.wp-block-navigation-item:first-child {
-						padding-top: 0.75rem;
+						padding-top: 0.5rem;
 					}
 
 					> li.wp-block-navigation-item:last-child {
-						padding-bottom: 0.75rem;
+						padding-bottom: 0.5rem;
 					}
 
 					li.wp-block-navigation-item {
-						color: var(--wp--preset--color--white);
-						background-color: var(--wp--preset--color--primary);
-
 						a.wp-block-navigation-item__content {
-							padding: 0.75rem 1.75rem;
+							padding: 0.5rem 1.25rem;
 						}
 
 						.wp-block-navigation__submenu-icon {
@@ -64,13 +57,12 @@
 
 						ul.wp-block-navigation__submenu-container {
 							top: 0;
-							border-left: 1px solid #fff;
 						}
 					}
 
 					li.wp-block-navigation-item:not(:first-child) {
 						ul.wp-block-navigation__submenu-container {
-							top: -0.75rem;
+							top: -0.5rem;
 						}
 					}
 				}
@@ -102,7 +94,6 @@
 			a:hover,
 			a:focus,
 			a:active {
-				color: var(--wp--preset--color--primary);
 				text-decoration: none;
 			}
 
@@ -115,14 +106,7 @@
 	.wp-block-navigation__responsive-container-close,
 	.wp-block-navigation__responsive-container-open {
 		font: inherit;
-		padding-top: var(--wp--preset--spacing--70);
-		padding-bottom: var(--wp--preset--spacing--70);
-		padding-left: 0.5rem;
-		padding-right: 0.5rem;
-
-		&:hover {
-			color: var(--wp--preset--color--primary);
-		}
+		padding: 1rem;
 
 		svg {
 			width: 30px;

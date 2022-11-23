@@ -150,7 +150,7 @@
 					"name": "Tiny"
 				},
 				{
-					"size": "16px",
+					"size": "15px",
 					"fluid": false,
 					"slug": "small",
 					"name": "Small"
@@ -308,23 +308,29 @@
 				}
 			},
 			"core/navigation": {
+				"color": {
+					"text": "#ffffff"
+				},
 				"elements": {
 					"link": {
 						"color": {
-							"text": "inherit"
+							"text": "#ffffff"
 						},
 						"typography": {
 							"textDecoration": "none"
 						},
 						":hover": {
 							"color": {
-								"text": "inherit"
+								"text": "#cdcecf"
 							},
 							"typography": {
 								"textDecoration": "underline"
 							}
 						}
 					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/post-content": {
