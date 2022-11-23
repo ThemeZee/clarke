@@ -349,8 +349,9 @@ p.has-background {
 
 /* Query Pagination Block */
 .wp-block-query-pagination span.current {
-	padding: 0.4rem 0.8rem;
-	background-color: var(--wp--preset--color--medium-gray);
+	padding: 0.5rem 1rem;
+	color: var(--wp--preset--color--black);
+	background-color: var(--wp--preset--color--primary);
 }
 
 .wp-block-query-pagination > .wp-block-query-pagination-numbers {
