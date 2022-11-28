@@ -14,13 +14,6 @@
 			"postTypes": [
 				"page"
 			]
-		},
-		{
-			"name": "page-sidebar",
-			"title": "Page (Sidebar)",
-			"postTypes": [
-				"page"
-			]
 		}
 	],
 	"settings": {
@@ -651,11 +644,6 @@
 			"area": "uncategorized",
 			"name": "posts",
 			"title": "Posts"
-		},
-		{
-			"area": "uncategorized",
-			"name": "sidebar",
-			"title": "Sidebar"
 		}
 	]
 }
