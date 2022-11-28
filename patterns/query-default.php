@@ -28,7 +28,7 @@
 			<!-- wp:column {"width":""} -->
 			<div class="wp-block-column">
 
-				<!-- wp:post-featured-image {"isLink":true} /-->
+				<!-- wp:post-featured-image {"isLink":true,"style":{"border":{"radius":"12px"}}} /-->
 
 			</div>
 			<!-- /wp:column -->
