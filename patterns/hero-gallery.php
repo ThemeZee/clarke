@@ -28,7 +28,7 @@
 
 				<!-- wp:button -->
 				<div class="wp-block-button">
-					<a class="wp-block-button__link wp-element-button">CopyWriting Services</a>
+					<a class="wp-block-button__link wp-element-button">Our Services</a>
 				</div>
 				<!-- /wp:button -->
 
@@ -47,36 +47,30 @@
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
 
-			<!-- wp:gallery {"linkTo":"none"} -->
-			<figure class="wp-block-gallery has-nested-images columns-default is-cropped">
+			<!-- wp:gallery {"columns":2,"linkTo":"none"} -->
+			<figure class="wp-block-gallery has-nested-images columns-2 is-cropped">
 
-				<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/portfolio-image.png" alt="">
+				<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
+				<figure class="wp-block-image size-full has-custom-border">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/portfolio-image.png" alt="" style="border-radius:12px"/>
 				</figure>
 				<!-- /wp:image -->
 
-				<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/portfolio-image.png" alt="">
+				<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
+				<figure class="wp-block-image size-full has-custom-border">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/portfolio-image.png" alt="" style="border-radius:12px"/>
 				</figure>
 				<!-- /wp:image -->
 
-				<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/portfolio-image.png" alt="">
+				<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
+				<figure class="wp-block-image size-full has-custom-border">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/portfolio-image.png" alt="" style="border-radius:12px"/>
 				</figure>
 				<!-- /wp:image -->
 
-				<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/portfolio-image.png" alt="">
-				</figure>
-				<!-- /wp:image -->
-
-				<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/portfolio-image.png" alt="">
+				<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
+				<figure class="wp-block-image size-full has-custom-border">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/portfolio-image.png" alt="" style="border-radius:12px"/>
 				</figure>
 				<!-- /wp:image -->
 

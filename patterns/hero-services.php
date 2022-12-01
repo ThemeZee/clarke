@@ -28,7 +28,7 @@
 
 				<!-- wp:button -->
 				<div class="wp-block-button">
-					<a class="wp-block-button__link wp-element-button">CopyWriting Services</a>
+					<a class="wp-block-button__link wp-element-button">Our Services</a>
 				</div>
 				<!-- /wp:button -->
 
@@ -47,43 +47,67 @@
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":3210,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="http://localhost/wp-content/uploads/2022/03/StockSnap_RV2H4VBE3L-scaled-1-1024x683.jpg" alt="" class="wp-image-3210" style="border-radius:12px"/></figure>
-<!-- /wp:image -->
+			<!-- wp:columns -->
+			<div class="wp-block-columns">
+				
+				<!-- wp:column -->
+				<div class="wp-block-column">
+					
+					<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
+					<figure class="wp-block-image size-full has-custom-border is-style-default">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/hero-image.png" alt="" style="border-radius:12px"/>
+					</figure>
+					<!-- /wp:image -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}},"border":{"radius":"12px"}},"backgroundColor":"gray","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-gray-background-color has-background" style="border-radius:12px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="has-large-font-size">For individuals</h3>
-<!-- /wp:heading -->
+					<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}},"border":{"radius":"12px"}},"backgroundColor":"gray","layout":{"type":"constrained"}} -->
+					<div class="wp-block-group has-gray-background-color has-background" style="border-radius:12px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
+					
+						<!-- wp:heading {"fontSize":"x-large"} -->
+						<h2 class="has-x-large-font-size">For freelancers</h2>
+						<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column -->
+						<!-- wp:paragraph -->
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+						<!-- /wp:paragraph -->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:spacer {"height":"50px"} -->
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+					</div>
+					<!-- /wp:group -->
 
-<!-- wp:image {"id":3213,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="http://localhost/wp-content/uploads/2022/03/StockSnap_YLZ9D6JH3M-scaled-1-1024x680.jpg" alt="" class="wp-image-3213" style="border-radius:12px"/></figure>
-<!-- /wp:image -->
+				</div>
+				<!-- /wp:column -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}},"border":{"radius":"12px"}},"backgroundColor":"gray","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-gray-background-color has-background" style="border-radius:12px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="has-large-font-size">For companies</h3>
-<!-- /wp:heading -->
+				<!-- wp:column -->
+				<div class="wp-block-column">
+					
+					<!-- wp:spacer {"height":"50px"} -->
+					<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+					<!-- /wp:spacer -->
 
-<!-- wp:paragraph -->
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
+					<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
+					<figure class="wp-block-image size-full has-custom-border is-style-default">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/hero-image.png" alt="" style="border-radius:12px"/>
+					</figure>
+					<!-- /wp:image -->
+
+					<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}},"border":{"radius":"12px"}},"backgroundColor":"gray","layout":{"type":"constrained"}} -->
+					<div class="wp-block-group has-gray-background-color has-background" style="border-radius:12px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
+					
+						<!-- wp:heading {"fontSize":"x-large"} -->
+						<h2 class="has-x-large-font-size">For agencies</h2>
+						<!-- /wp:heading -->
+
+						<!-- wp:paragraph -->
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+						<!-- /wp:paragraph -->
+
+					</div>
+					<!-- /wp:group -->
+
+				</div>
+				<!-- /wp:column -->
+
+			</div>
+			<!-- /wp:columns -->
 
 		</div>
 		<!-- /wp:column -->

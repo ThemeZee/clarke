@@ -28,7 +28,7 @@
 
 				<!-- wp:button -->
 				<div class="wp-block-button">
-					<a class="wp-block-button__link wp-element-button">CopyWriting Services</a>
+					<a class="wp-block-button__link wp-element-button">Our Services</a>
 				</div>
 				<!-- /wp:button -->
 
