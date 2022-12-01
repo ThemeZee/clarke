@@ -58,8 +58,8 @@
 				</figure>
 				<!-- /wp:image -->
 
-		</figure>
-		<!-- /wp:gallery -->
+			</figure>
+			<!-- /wp:gallery -->
 
 		</div>
 		<!-- /wp:column -->
