@@ -15,8 +15,8 @@
 		<!-- wp:column {"width":"40%"} -->
 		<div class="wp-block-column" style="flex-basis:40%">
 
-			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading">Portfolio</h2>
+			<!-- wp:heading -->
+			<h2>Let our <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">references</mark> <br>speak for us.</h2>
 			<!-- /wp:heading -->
 
 		</div>
@@ -31,24 +31,24 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full is-style-default">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+					<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
+					<figure class="wp-block-image size-full has-custom-border is-style-default">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="" style="border-radius:12px"/>
 					</figure>
 					<!-- /wp:image -->
 
 					<!-- wp:heading {"level":3} -->
-					<h3>Tax Calculator</h3>
+					<h3>Case Study 1</h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis diss parturient.</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
 						<!-- wp:button -->
-						<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Try now</a></div>
+						<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Learn more</a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -59,25 +59,25 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full is-style-default">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+					<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
+					<figure class="wp-block-image size-full has-custom-border is-style-default">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="" style="border-radius:12px"/>
 					</figure>
 					<!-- /wp:image -->
 
 					<!-- wp:heading {"level":3} -->
-					<h3>Retirement Planner</h3>
+					<h3>Case Study 2</h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis diss parturient.</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
 
 						<!-- wp:button -->
-						<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Try now</a></div>
+						<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Learn more</a></div>
 						<!-- /wp:button -->
 
 					</div>
