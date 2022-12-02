@@ -83,8 +83,8 @@
 	</div>
 	<!-- /wp:columns -->
 
-	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"},"margin":{"top":"var:preset|spacing|70"}}}} -->
-	<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--70)">
+	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"},"margin":{"top":"var:preset|spacing|60"}}}} -->
+	<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--60)">
 
 		<!-- wp:column -->
 		<div class="wp-block-column">
