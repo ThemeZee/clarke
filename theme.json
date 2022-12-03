@@ -602,18 +602,13 @@
 			"area": "header"
 		},
 		{
-			"name": "header-centered-logo",
-			"title": "Header (Centered Logo)",
-			"area": "header"
-		},
-		{
 			"name": "header-centered-navigation",
 			"title": "Header (Centered Navigation)",
 			"area": "header"
 		},
 		{
 			"name": "header-social-icons",
-			"title": "Header (Social Icons after Logo)",
+			"title": "Header (Social Icons)",
 			"area": "header"
 		},
 		{

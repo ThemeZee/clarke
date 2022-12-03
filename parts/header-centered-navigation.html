@@ -1,5 +1,5 @@
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"backgroundColor":"white","layout":{"contentSize":"1440px","inherit":false,"type":"constrained"}} -->
-<div class="wp-block-group has-white-background-color has-background" style="padding-top:0;padding-right:var(--wp--preset--spacing--40);padding-bottom:0;padding-left:var(--wp--preset--spacing--40)">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"contentSize":"1440px","inherit":false,"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 
 	<!-- wp:group {"style":{"spacing":{"blockGap":"1rem"}},"layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between","flexWrap":"nowrap"}} -->
 	<div class="wp-block-group">
@@ -13,18 +13,15 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:navigation {"className":"is-style-main-navigation","layout":{"type":"flex","justifyContent":"left"},"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} /-->
+		<!-- wp:navigation {"textColor":"white","overlayBackgroundColor":"dark-gray","overlayTextColor":"white","className":"is-style-main-navigation","layout":{"type":"flex","justifyContent":"left"},"style":{"typography":{"fontStyle":"normal","fontWeight":"500","textTransform":"uppercase"}}} /-->
 
-		<!-- wp:social-links {"className":"is-style-primary-hover","layout":{"type":"flex","justifyContent":"right"}} -->
-		<ul class="wp-block-social-links is-style-primary-hover">
-	
-			<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
-			<!-- wp:social-link {"url":"https://linkedin.com/","service":"linkedin"} /-->
-			<!-- wp:social-link {"url":"https://facebook.com/","service":"facebook"} /-->
-			<!-- wp:social-link {"url":"https://instagram.com","service":"instagram"} /-->
-
-		</ul>
-		<!-- /wp:social-links -->
+		<!-- wp:buttons -->
+		<div class="wp-block-buttons">
+			<!-- wp:button {"style":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}}} -->
+			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">Contact</a></div>
+			<!-- /wp:button -->
+		</div>
+		<!-- /wp:buttons -->
 
 	</div>
 	<!-- /wp:group -->
