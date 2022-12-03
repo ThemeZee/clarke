@@ -15,11 +15,10 @@
 		<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|80"}}}} -->
 		<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--80)">
 
-			<!-- wp:pattern {"slug":"clarke/postmeta-date"} /-->
+			<!-- wp:post-terms {"term":"category","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"500"}},"fontSize":"small"} /-->
+			<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} /-->
 
-			<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"className":"is-style-underlined-heading","fontSize":"xx-large"} /-->
-
-			<!-- wp:post-excerpt /-->
+			<!-- wp:post-excerpt {"moreText":"Continue reading"} /-->
 
 		</div>
 		<!-- /wp:group -->

@@ -15,7 +15,7 @@
 		<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|80","left":"var:preset|spacing|80"},"margin":{"bottom":"var:preset|spacing|70"},"padding":{"bottom":"var:preset|spacing|70"}}}} -->
 		<div class="wp-block-columns" style="margin-bottom:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
 
-			<!-- wp:column {"width":""} -->
+			<!-- wp:column -->
 			<div class="wp-block-column">
 
 				<!-- wp:post-terms {"term":"category","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"500"}},"fontSize":"small"} /-->
@@ -25,7 +25,7 @@
 			</div>
 			<!-- /wp:column -->
 
-			<!-- wp:column {"width":""} -->
+			<!-- wp:column -->
 			<div class="wp-block-column">
 
 				<!-- wp:post-featured-image {"isLink":true,"style":{"border":{"radius":"12px"}}} /-->
