@@ -632,11 +632,6 @@
 			"area": "footer"
 		},
 		{
-			"name": "footer-navigation",
-			"title": "Footer (Navigation)",
-			"area": "footer"
-		},
-		{
 			"area": "uncategorized",
 			"name": "posts",
 			"title": "Posts"
