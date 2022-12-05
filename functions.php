@@ -37,7 +37,6 @@ function clarke_block_scripts() {
 
 	// Enqueue Editor Styling.
 	wp_enqueue_style( 'clarke-editor-styles', get_theme_file_uri( '/assets/css/editor-styles.css' ), array(), wp_get_theme()->get( 'Version' ), 'all' );
-
 }
 add_action( 'enqueue_block_editor_assets', 'clarke_block_scripts' );
 
@@ -53,7 +52,7 @@ function clarke_excerpt_length( $length ) {
 		return $length;
 	}
 
-	return apply_filters( 'clarke_excerpt_length', 42 );
+	return apply_filters( 'clarke_excerpt_length', 35 );
 }
 add_filter( 'excerpt_length', 'clarke_excerpt_length' );
 
