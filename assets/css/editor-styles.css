@@ -5,7 +5,7 @@
  */
 
 /* Override Button Styles */
-.wp-block-button.is-style-outline > a.wp-block-button__link,
-.wp-block-button a.wp-block-button__link.is-style-outline {
-	padding: 0.6rem 1.2rem !important;
+.wp-block-button.is-style-outline > .wp-block-button__link,
+.wp-block-button .wp-block-button__link.is-style-outline {
+	padding: 0.7rem 1.2rem !important;
 }
