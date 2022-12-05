@@ -4,17 +4,13 @@ hr.wp-block-separator {
 	margin-right: auto;
 	border: none;
 	background-color: currentColor;
-	height: 3px;
+	height: 2px;
 	opacity: 1;
-
-	&:not(.has-background) {
-		opacity: 0.15;
-	}
 
 	// Default style.
 	&:not(.is-style-wide):not(.is-style-thin):not(.is-style-dots) {
 		width: 80px;
-		height: 3px;
+		height: 4px;
 	}
 
 	// Dots.
@@ -26,10 +22,5 @@ hr.wp-block-separator {
 			letter-spacing: 1em;
 			padding-left: 1em;
 		}
-	}
-
-	// Thine Line.
-	&.is-style-thin {
-		height: 1px;
 	}
 }

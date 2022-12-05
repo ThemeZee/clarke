@@ -103,43 +103,11 @@ function clarke_register_block_styles() {
 		'style_handle' => 'clarke-stylesheet',
 	) );
 
-	// Register Footer Navigation block style.
-	register_block_style( 'core/navigation', array(
-		'name'         => 'footer-navigation',
-		'label'        => esc_html__( 'Footer Navigation', 'clarke' ),
-		'style_handle' => 'clarke-stylesheet',
-	) );
-
-	// Register Inherit Colors block style.
-	register_block_style( 'core/social-links', array(
-		'name'         => 'inherit-colors',
-		'label'        => esc_html__( 'Inherit Colors', 'clarke' ),
-		'style_handle' => 'clarke-stylesheet',
-	) );
-
 	// Register Primary Hover block style.
 	register_block_style( 'core/social-links', array(
 		'name'         => 'primary-hover',
 		'label'        => esc_html__( 'Primary Hover', 'clarke' ),
 		'style_handle' => 'clarke-stylesheet',
 	) );
-
-	// Register Thin Line block style.
-	register_block_style( 'core/separator', array(
-		'name'         => 'thin',
-		'label'        => esc_html__( 'Thin Line', 'clarke' ),
-		'style_handle' => 'clarke-stylesheet',
-	) );
-
-	// Register Underlined Heading block style.
-	$underlined_heading_style = array(
-		'name'         => 'underlined-heading',
-		'label'        => esc_html__( 'Underlined', 'clarke' ),
-		'style_handle' => 'clarke-stylesheet',
-	);
-
-	register_block_style( 'core/heading', $underlined_heading_style );
-	register_block_style( 'core/post-title', $underlined_heading_style );
-	register_block_style( 'core/query-title', $underlined_heading_style );
 }
 add_action( 'init', 'clarke_register_block_styles', 9 );
