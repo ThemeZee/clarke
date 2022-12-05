@@ -82,57 +82,33 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "Roboto",
+							"fontFamily": "Heebo",
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/roboto/Roboto-Regular.woff2"
+								"file:./assets/fonts/heebo/heebo-regular.woff2"
 							]
 						},
 						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/roboto/Roboto-Regular-Italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
+							"fontFamily": "Heebo",
 							"fontStyle": "normal",
 							"fontWeight": "500",
 							"src": [
-								"file:./assets/fonts/roboto/Roboto-Medium.woff2"
+								"file:./assets/fonts/heebo/heebo-medium.woff2"
 							]
 						},
 						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/roboto/Roboto-Medium-Italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
+							"fontFamily": "Heebo",
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/roboto/Roboto-Bold.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/roboto/Roboto-Bold-Italic.woff2"
+								"file:./assets/fonts/heebo/heebo-bold.woff2"
 							]
 						}
 					],
-					"fontFamily": "Roboto, sans-serif",
-					"name": "Roboto",
-					"slug": "roboto"
+					"fontFamily": "Heebo, sans-serif",
+					"name": "Heebo",
+					"slug": "heebo"
 				}
 			],
 			"fontSizes": [
@@ -518,7 +494,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontFamily": "var(--wp--preset--font-family--heebo)",
 					"lineHeight": "1.25"
 				}
 			},
@@ -582,7 +558,7 @@
 		},
 		"typography": {
 			"fontSize": "clamp( 16px, 4vw, 18px)",
-			"fontFamily": "var(--wp--preset--font-family--roboto)",
+			"fontFamily": "var(--wp--preset--font-family--heebo)",
 			"lineHeight": "1.75"
 		},
 		"spacing": {
