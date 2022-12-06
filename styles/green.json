@@ -1,56 +1,57 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Fiery",
+	"title": "Green",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#d40808",
+					"color": "#00cb19",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#c00000",
+					"color": "#06e432",
 					"name": "Secondary"
 				},
 				{
-					"slug": "tertiary",
-					"color": "#ab0000",
-					"name": "Tertiary"
-				},
-				{
 					"slug": "light-gray",
-					"color": "#f9f0f0",
+					"color": "#abacad",
 					"name": "Light Gray"
 				},
 				{
 					"slug": "medium-gray",
-					"color": "#e1d1d1",
+					"color": "#2c2d2e",
 					"name": "Medium Gray"
 				},
 				{
 					"slug": "gray",
-					"color": "#877878",
+					"color": "#1f2021",
 					"name": "Gray"
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#483737",
+					"color": "#121314",
 					"name": "Dark Gray"
-				},
-				{
-					"slug": "dark-gray",
-					"color": "#3b2b2b",
-					"name": "Darker Gray"
 				}
 			]
 		}
 	},
 	"styles": {
 		"color": {
-			"background": "#f9f0f0"
+			"background": "#121314",
+			"text": "#abacad"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--quicksand)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--quicksand)"
 		}
 	}
 }

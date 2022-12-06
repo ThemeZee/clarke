@@ -7,50 +7,51 @@
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#005577",
+					"color": "#6699ff",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#14698b",
+					"color": "#80b3ff",
 					"name": "Secondary"
 				},
 				{
-					"slug": "tertiary",
-					"color": "#297ea0",
-					"name": "Tertiary"
-				},
-				{
 					"slug": "light-gray",
-					"color": "#ecf4f8",
+					"color": "#99aabb",
 					"name": "Light Gray"
 				},
 				{
 					"slug": "medium-gray",
-					"color": "#d1dce1",
+					"color": "#1a2b3c",
 					"name": "Medium Gray"
 				},
 				{
 					"slug": "gray",
-					"color": "#778287",
+					"color": "#0d1e2f",
 					"name": "Gray"
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#384348",
+					"color": "#001122",
 					"name": "Dark Gray"
-				},
-				{
-					"slug": "dark-gray",
-					"color": "#2b363b",
-					"name": "Darker Gray"
 				}
 			]
 		}
 	},
 	"styles": {
 		"color": {
-			"background": "#ecf4f8"
+			"background": "#001122",
+			"text": "#99aabb"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--raleway)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)"
 		}
 	}
 }
