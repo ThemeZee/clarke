@@ -48,6 +48,15 @@ class Clarke_License_Settings {
 	 */
 	static function register_settings() {
 
+		// Add License Status Setting.
+		add_settings_field(
+			'clarke_theme_settings[clarke_license_status]',
+			esc_html__( 'License Status', 'clarke' ),
+			array( __CLASS__, 'render_license_status_setting' ),
+			'clarke_theme_settings',
+			'clarke_license_section'
+		);
+
 		// Add License Key Setting.
 		add_settings_field(
 			'clarke_theme_settings[clarke_license_key]',
@@ -56,6 +65,26 @@ class Clarke_License_Settings {
 			'clarke_theme_settings',
 			'clarke_license_section'
 		);
+	}
+
+	/**
+	 * License Status Callback
+	 */
+	static function render_license_status_setting() {
+		$options        = self::get_settings();
+		$license_status = $options['clarke_license_status'];
+		$license_key    = ! empty( $options['clarke_license_key'] ) ? trim( $options['clarke_license_key'] ) : false;
+
+		$html = '';
+		if ( 'valid' === $license_status && ! empty( $license_key ) ) {
+			$html .= '<span style="display: inline-block; margin-bottom: 12px; padding: 4px 8px; background: green; color: #fff;">' . esc_html__( 'Active', 'clarke' ) . '</span>';
+			$html .= '<br/><span class="description">' . esc_html__( 'You are receiving updates.', 'clarke' ) . '</span>';
+		} else {
+			$html .= '<span style="display: inline-block; margin-bottom: 12px; padding: 4px 8px; background: #444; color: #fff;">' . esc_html__( 'Inactive', 'clarke' ) . '</span>';
+			$html .= '<br/><span class="description">' . esc_html__( 'Please activate your license.', 'clarke' ) . '</span>';
+		}
+
+		echo $html;
 	}
 
 	/**
@@ -70,11 +99,9 @@ class Clarke_License_Settings {
 		if ( 'valid' === $license_status && ! empty( $license_key ) ) {
 			$html .= '<span style="display: inline-block; box-sizing: border-box; width: 25em; margin: 0 1px; padding: 0 8px;line-height: 2;border-radius: 4px;border: 1px solid #8c8f94;">*************************' . esc_html( substr( stripslashes( $license_key ), 25 ) ) . '</span>';
 			$html .= '<input type="submit" class="button" name="clarke_deactivate_license" value="' . esc_attr__( 'Deactivate License', 'clarke' ) . '"/>';
-			$html .= '<br/><span class="description">' . esc_html__( 'Active. You are receiving updates.', 'clarke' ) . '</span>';
 		} else {
 			$html .= '<input type="text" class="regular-text" id="clarke_theme_settings[clarke_license_key]" name="clarke_theme_settings[clarke_license_key]" value="' . esc_attr( stripslashes( $license_key ) ) . '"/>';
 			$html .= '<input type="submit" class="button" name="clarke_activate_license" value="' . esc_attr__( 'Activate License', 'clarke' ) . '"/>';
-			$html .= '<br/><span class="description">' . esc_html__( 'Inactive. Please enter your license key.', 'clarke' ) . '</span>';
 		}
 
 		echo $html;
