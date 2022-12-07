@@ -111,3 +111,55 @@ function clarke_register_block_styles() {
 	) );
 }
 add_action( 'init', 'clarke_register_block_styles', 9 );
+
+
+/**
+ * Set up the Plugin Updater Constants.
+ */
+define( 'CLARKE_THEME_VERSION', '0.9' );
+define( 'CLARKE_THEME_NAME', 'Clarke' );
+define( 'CLARKE_THEME_ID', 255875 );
+define( 'CLARKE_THEME_STORE_URL', 'https://themezee.com' );
+
+
+/**
+ * Include License Settings and Plugin Updater.
+ */
+include dirname( __FILE__ ) . '/includes/class-clarke-admin-page.php';
+include dirname( __FILE__ ) . '/includes/class-clarke-license-settings.php';
+include dirname( __FILE__ ) . '/includes/class-clarke-theme-updater.php';
+
+
+/**
+ * Initialize the updater. Hooked into `init` to work with the
+ * wp_version_check cron job, which allows auto-updates.
+ */
+function clarke_run_theme_updater() {
+
+	// To support auto-updates, this needs to run during the wp_version_check cron job for privileged users.
+	$doing_cron = defined( 'DOING_CRON' ) && DOING_CRON;
+	if ( ! current_user_can( 'manage_options' ) && ! $doing_cron ) {
+		return;
+	}
+
+	// Retrieve our license key from the DB.
+	$options     = get_option( 'clarke_theme_settings', array() );
+	$license_key = ! empty( $options['clarke_license_key'] ) ? trim( $options['clarke_license_key'] ) : false;
+
+	// Setup the updater.
+	new Clarke_Theme_Updater(
+		array(
+			'remote_api_url' => CLARKE_THEME_STORE_URL,
+			'item_name'      => CLARKE_THEME_NAME,
+			'theme_slug'     => get_template(),
+			'version'        => CLARKE_THEME_VERSION,
+			'author'         => 'ThemeZee',
+			'item_id'        => CLARKE_THEME_ID,
+		),
+		array(
+			'update-available' => esc_html__( 'Version %2$s of %1$s is available. <a href="%3$s">View changelog of %4$s</a> or <a href="%5$s" %6$s>update now</a>.', 'clarke' ),
+			'update-notice'    => esc_html__( 'Updating this theme will override all theme files. Click "Cancel" to stop, "OK" to update.', 'clarke' ),
+		)
+	);
+}
+add_action( 'init', 'clarke_run_theme_updater' );
