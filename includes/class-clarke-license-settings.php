@@ -27,6 +27,9 @@ class Clarke_License_Settings {
 		// Add Admin notices.
 		add_action( 'admin_notices', array( __CLASS__, 'license_activated_notice' ) );
 		add_action( 'admin_notices', array( __CLASS__, 'theme_page_notice' ) );
+
+		// Disable updates from WordPress.org.
+		add_filter( 'http_request_args', array( __CLASS__, 'disable_wporg_request' ), 5, 2 );
 	}
 
 	/**
@@ -361,6 +364,33 @@ class Clarke_License_Settings {
 
 			<?php
 		endif;
+	}
+
+	/**
+	 * Disable requests to wp.org repository for this theme.
+	 *
+	 * @since 1.0.0
+	 */
+	public function disable_wporg_request( $r, $url ) {
+
+		// If it's not a theme update request, bail.
+		if ( 0 !== strpos( $url, 'https://api.wordpress.org/themes/update-check/1.1/' ) ) {
+			return $r;
+		}
+
+		// Decode the JSON response.
+		$themes = json_decode( $r['body']['themes'] );
+
+		// Remove the active parent and child themes from the check.
+		$parent = get_option( 'template' );
+		$child  = get_option( 'stylesheet' );
+		unset( $themes->themes->$parent );
+		unset( $themes->themes->$child );
+
+		// Encode the updated JSON response.
+		$r['body']['themes'] = json_encode( $themes );
+
+		return $r;
 	}
 }
 
