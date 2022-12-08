@@ -371,7 +371,7 @@ class Clarke_License_Settings {
 	 *
 	 * @since 1.0.0
 	 */
-	public function disable_wporg_request( $r, $url ) {
+	static function disable_wporg_request( $r, $url ) {
 
 		// If it's not a theme update request, bail.
 		if ( 0 !== strpos( $url, 'https://api.wordpress.org/themes/update-check/1.1/' ) ) {
