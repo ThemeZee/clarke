@@ -97,18 +97,24 @@ add_action( 'init', 'clarke_register_block_pattern_categories', 9 );
 function clarke_register_block_styles() {
 
 	// Register Main Navigation block style.
-	register_block_style( 'core/navigation', array(
-		'name'         => 'main-navigation',
-		'label'        => esc_html__( 'Main Navigation', 'clarke' ),
-		'style_handle' => 'clarke-stylesheet',
-	) );
+	register_block_style(
+		'core/navigation',
+		array(
+			'name'         => 'main-navigation',
+			'label'        => esc_html__( 'Main Navigation', 'clarke' ),
+			'style_handle' => 'clarke-stylesheet',
+		)
+	);
 
 	// Register Primary Hover block style.
-	register_block_style( 'core/social-links', array(
-		'name'         => 'primary-hover',
-		'label'        => esc_html__( 'Primary Hover', 'clarke' ),
-		'style_handle' => 'clarke-stylesheet',
-	) );
+	register_block_style(
+		'core/social-links',
+		array(
+			'name'         => 'primary-hover',
+			'label'        => esc_html__( 'Primary Hover', 'clarke' ),
+			'style_handle' => 'clarke-stylesheet',
+		)
+	);
 }
 add_action( 'init', 'clarke_register_block_styles', 9 );
 
@@ -125,9 +131,10 @@ define( 'CLARKE_THEME_STORE_URL', 'https://themezee.com' );
 /**
  * Include License Settings and Plugin Updater.
  */
-include dirname( __FILE__ ) . '/includes/class-clarke-admin-page.php';
-include dirname( __FILE__ ) . '/includes/class-clarke-license-settings.php';
-include dirname( __FILE__ ) . '/includes/class-clarke-theme-updater.php';
+require_once get_parent_theme_file_path( '/includes/class-clarke-admin-page.php' );
+require_once get_parent_theme_file_path( '/includes/class-clarke-demo-content-settings.php' );
+require_once get_parent_theme_file_path( '/includes/class-clarke-license-settings.php' );
+require_once get_parent_theme_file_path( '/includes/class-clarke-theme-updater.php' );
 
 
 /**
@@ -157,6 +164,7 @@ function clarke_run_theme_updater() {
 			'item_id'        => CLARKE_THEME_ID,
 		),
 		array(
+			/* translators: %1$s: Theme name. %2$s: Version number. %3$s: View Changelog link. %4$s: Changelog name. %5$s: Update link. */
 			'update-available' => esc_html__( 'Version %2$s of %1$s is available. <a href="%3$s">View changelog of %4$s</a> or <a href="%5$s" %6$s>update now</a>.', 'clarke' ),
 			'update-notice'    => esc_html__( 'Updating this theme will override all theme files. Click "Cancel" to stop, "OK" to update.', 'clarke' ),
 		)
