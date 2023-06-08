@@ -1,0 +1,249 @@
+# Translation of Themes + Pro Versions + Add-ons in German
+# This file is distributed under the same license as the Themes + Pro Versions + Add-ons package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lewis\n"
+"Report-Msgid-Bugs-To: https://themezee.com/\n"
+"POT-Creation-Date: 2023-06-08 17:32+0200\n"
+"PO-Revision-Date: 2023-06-08 17:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: ThemeZee <support@themezee.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: functions.php:67
+msgid "Clarke: Hero"
+msgstr "Clarke: Hero"
+
+#: functions.php:68
+msgid "Clarke: Call to Action"
+msgstr "Clarke: Call to Action"
+
+#: functions.php:69
+msgid "Clarke: Features"
+msgstr "Clarke: Features"
+
+#: functions.php:70
+msgid "Clarke: Media Text"
+msgstr "Clarke: Media Text"
+
+#: functions.php:71
+msgid "Clarke: Portfolio"
+msgstr "Clarke: Portfolio"
+
+#: functions.php:72
+msgid "Clarke: Services"
+msgstr "Clarke: Services"
+
+#: functions.php:73
+msgid "Clarke: Testimonials"
+msgstr "Clarke: Testimonials"
+
+#: functions.php:74
+msgid "Clarke: Team"
+msgstr "Clarke: Team"
+
+#: functions.php:75
+msgid "Clarke: Blog Posts"
+msgstr "Clarke: News"
+
+#: functions.php:104
+msgid "Main Navigation"
+msgstr "Hauptnavigation"
+
+#: functions.php:114
+msgid "Primary Hover"
+msgstr "Primär-Hover"
+
+#: functions.php:168
+#, php-format
+msgid ""
+"Version %2$s of %1$s is available. <a href=\"%3$s\">View changelog of %4$s</"
+"a> or <a href=\"%5$s\" %6$s>update now</a>."
+msgstr ""
+"Version %2$s von %1$s ist verfügbar. <a href=„%3$s“>Changelog von %4$s "
+"ansehen</a> oder <a href=„%5$s“ %6$s>jetzt aktualisieren</a>."
+
+#: functions.php:169
+msgid ""
+"Updating this theme will override all theme files. Click \"Cancel\" to stop, "
+"\"OK\" to update."
+msgstr ""
+"Durch das Update dieses Themas werden alle Thame-Dateien überschrieben. "
+"Klicke auf „Abbrechen“, um zu stoppen, auf „OK“, um zu aktualisieren."
+
+#: includes/class-clarke-admin-page.php:40
+#: includes/class-clarke-admin-page.php:41
+msgid "Theme Setup"
+msgstr "Theme Optionen"
+
+#: includes/class-clarke-admin-page.php:57
+msgid "Clarke"
+msgstr "Clarke"
+
+#: includes/class-clarke-admin-page.php:87
+msgid "Demo Content"
+msgstr "Demo-Content"
+
+#: includes/class-clarke-admin-page.php:95
+msgid "License Settings"
+msgstr "Lizenzeinstellungen"
+
+#: includes/class-clarke-admin-page.php:112
+msgid "Import the demo content into your website to get started quickly."
+msgstr ""
+"Importiere den Demo-Content in deine Website, um schnell loslegen zu können."
+
+#: includes/class-clarke-admin-page.php:119
+msgid "An active license key is needed to install updates and receive support."
+msgstr ""
+"Eine aktive Lizenz wird benötigt, um automatische Updates und Support zu "
+"erhalten."
+
+#: includes/class-clarke-demo-content-settings.php:54
+#: includes/class-clarke-demo-content-settings.php:94
+msgid "Import Content"
+msgstr "Content importieren"
+
+#: includes/class-clarke-demo-content-settings.php:61
+#, php-format
+msgid "Blog Posts (%s)"
+msgstr "Blog-Beiträge (%s)"
+
+#: includes/class-clarke-demo-content-settings.php:63
+#, php-format
+msgid "Categories (%s)"
+msgstr "Kategorien (%s)"
+
+#: includes/class-clarke-demo-content-settings.php:65
+#, php-format
+msgid "Featured Images (%s)"
+msgstr "Beitragsbilder (%s)"
+
+#: includes/class-clarke-demo-content-settings.php:67
+#, php-format
+msgid "Static Pages (%s)"
+msgstr "Statische Seiten (%s)"
+
+#: includes/class-clarke-demo-content-settings.php:125
+msgid "Categories were successfully imported."
+msgstr "Die Kategorien wurden erfolgreich importiert."
+
+#: includes/class-clarke-demo-content-settings.php:127
+msgid "Categories could not be imported."
+msgstr "Kategorien konnten nicht importiert werden."
+
+#: includes/class-clarke-demo-content-settings.php:135
+msgid "Featured images were successfully imported."
+msgstr "Die Beitragsbilder wurden erfolgreich importiert."
+
+#: includes/class-clarke-demo-content-settings.php:137
+msgid "Featured images could not be imported."
+msgstr "Beitragsbilder konnten nicht importiert werden."
+
+#: includes/class-clarke-demo-content-settings.php:144
+msgid "Blog Posts were successfully imported."
+msgstr "Die Blog-Beiträge wurden erfolgreich importiert."
+
+#: includes/class-clarke-demo-content-settings.php:146
+msgid "Blog Posts could not be imported."
+msgstr "Blog-Beiträge konnten nicht importiert werden."
+
+#: includes/class-clarke-demo-content-settings.php:153
+msgid "Static pages were successfully imported."
+msgstr "Die statischen Seiten wurden erfolgreich importiert."
+
+#: includes/class-clarke-demo-content-settings.php:155
+msgid "Static pages could not be imported."
+msgstr "Statische Seiten konnten nicht importiert werden."
+
+#: includes/class-clarke-license-settings.php:59
+msgid "License Status"
+msgstr "Lizenzstatus"
+
+#: includes/class-clarke-license-settings.php:68
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: includes/class-clarke-license-settings.php:85
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/class-clarke-license-settings.php:86
+msgid "You are receiving updates."
+msgstr "Du erhältst Updates."
+
+#: includes/class-clarke-license-settings.php:88
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: includes/class-clarke-license-settings.php:89
+msgid "Please activate your license."
+msgstr "Bitte aktiviere deine Lizenz."
+
+#: includes/class-clarke-license-settings.php:107
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: includes/class-clarke-license-settings.php:110
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: includes/class-clarke-license-settings.php:172
+#: includes/class-clarke-license-settings.php:218
+#: includes/class-clarke-license-settings.php:286
+msgid "An error occurred, please try again."
+msgstr "Ein Fehler ist aufgetreten, bitte versuche es erneut."
+
+#: includes/class-clarke-license-settings.php:187
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Dein Lizenzschlüssel läuft am %s ab."
+
+#: includes/class-clarke-license-settings.php:195
+msgid "Your license key has been disabled."
+msgstr "Dein Lizenzschlüssel wurde deaktiviert."
+
+#: includes/class-clarke-license-settings.php:199
+msgid "Invalid license key."
+msgstr "Ungültiger Lizenzschlüssel."
+
+#: includes/class-clarke-license-settings.php:204
+msgid "Your license is not active for this URL."
+msgstr "Deine Lizenz ist für diese URL nicht aktiv."
+
+#: includes/class-clarke-license-settings.php:209
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Dies scheint ein ungültiger Lizenzschlüssel für %s zu sein."
+
+#: includes/class-clarke-license-settings.php:214
+msgid "Your license key has reached its activation limit."
+msgstr "Dein Lizenzschlüssel hat das Seitenlimit erreicht."
+
+#: includes/class-clarke-license-settings.php:232
+msgid "License was successfully activated."
+msgstr "Die Lizenz wurde erfolgreich aktiviert."
+
+#: includes/class-clarke-license-settings.php:317
+#, php-format
+msgid ""
+"Please enter your license key for the %1$s theme in order to receive updates "
+"and support. <a href=\"%2$s\">Enter License Key</a>"
+msgstr ""
+"Bitte trage deinen Lizenzschlüssel für das %1$s Theme ein, um automatische "
+"Updates und Support zu erhalten. <a href=\"%2$s\">Lizenzschlüssel eingeben</"
+"a>"
+
+#: patterns/footer-text.php:13
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: patterns/footer-text.php:13
+msgid "Imprint"
+msgstr "Impressum"
