@@ -122,7 +122,7 @@ add_action( 'init', 'clarke_register_block_styles', 9 );
 /**
  * Set up the Plugin Updater Constants.
  */
-define( 'CLARKE_THEME_VERSION', '1.0' );
+define( 'CLARKE_THEME_VERSION', '1.1' );
 define( 'CLARKE_THEME_NAME', 'Clarke' );
 define( 'CLARKE_THEME_ID', 256493 );
 define( 'CLARKE_THEME_STORE_URL', 'https://themezee.com' );
