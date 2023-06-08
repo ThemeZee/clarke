@@ -3,7 +3,10 @@
  * Title: Call to Action (Vertical)
  * Slug: clarke/call-to-action-vertical
  * Categories: clarke_cta
-*/
+ *
+ * @package Clarke
+ */
+
 ?>
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80"},"margin":{"top":"0"}}},"backgroundColor":"gray","layout":{"contentSize":"720px","wideSize":"1440px","type":"constrained"}} -->
