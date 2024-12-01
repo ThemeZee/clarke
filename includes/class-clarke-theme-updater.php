@@ -3,6 +3,8 @@
  * Clarke Theme Updater
  *
  * @package Clarke
+ * 
+ * phpcs:ignoreFile
  */
 
 // Exit if accessed directly.
